@@ -5,7 +5,7 @@ jobs:
       xcode: "10.0.0"
     environment:
       SCAN_DESTINATION: "platform=iOS Simulator,name=iPhone X,OS=12.0"
-      TROPOS_INSTRUMENTS_DEVICE: "iPhone X (12.0) ["
+      TROPOS_SIMCTL_DEVICE: "iPhone X"
 
     steps:
       - checkout
@@ -15,7 +15,7 @@ jobs:
       - run:
           name: Pre-warm iOS Simulator
           command: |
-            xcrun instruments -w "$TROPOS_INSTRUMENTS_DEVICE" || true
+            xcrun simctl boot "$TROPOS_SIMCTL_DEVICE" || true
       - run:
           name: Pre-fetch CocoaPods specs
           command: |
