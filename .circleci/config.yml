@@ -11,7 +11,7 @@ jobs:
       - checkout
       - run:
           name: Save Xcode version
-          command: xcodebuild -version > .circle-xcode-version
+          command: xcodebuild -version | tee .circle-xcode-version
       - run:
           name: Pre-warm iOS Simulator
           command: |
