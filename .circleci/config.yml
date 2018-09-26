@@ -3,12 +3,19 @@ jobs:
   build-and-test:
     macos:
       xcode: "10.0.0"
+    environment:
+      SCAN_DESTINATION: "platform=iOS Simulator,name=iPhone X,OS=12.0"
+      TROPOS_INSTRUMENTS_DEVICE: "iPhone X (12.0) ["
 
     steps:
       - checkout
       - run:
           name: Save Xcode version
           command: xcodebuild -version > .circle-xcode-version
+      - run:
+          name: Pre-warm iOS Simulator
+          command: |
+            xcrun instruments -w "$TROPOS_INSTRUMENTS_DEVICE" || true
       - run:
           name: Pre-fetch CocoaPods specs
           command: |
