@@ -115,7 +115,6 @@
 		4D1ABA0B1A89686200B7F8FB /* TRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1ABA0A1A89686200B7F8FB /* TRNavigationBar.m */; };
 		4D3336F61A80BE16001BA9A8 /* TRDailyForecastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D3336F51A80BE16001BA9A8 /* TRDailyForecastView.xib */; };
 		4D49554C1A8C298A0066F278 /* TRRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D49554B1A8C298A0066F278 /* TRRefreshView.m */; };
-		4D49554F1A8C29C30066F278 /* TRCircularProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D49554E1A8C29C30066F278 /* TRCircularProgressLayer.m */; };
 		4D4955521A8C2B5D0066F278 /* UIImage+TRColorBackdrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4955511A8C2B5D0066F278 /* UIImage+TRColorBackdrop.m */; };
 		4D7389DF1A9890CD0039F13B /* UIScrollView+TRReactiveCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7389DE1A9890CD0039F13B /* UIScrollView+TRReactiveCocoa.m */; };
 		4D76CCD41A99C3FA00DDE5EB /* TRRefreshLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D76CCD31A99C3FA00DDE5EB /* TRRefreshLayer.m */; };
@@ -350,8 +349,6 @@
 		4D3336F51A80BE16001BA9A8 /* TRDailyForecastView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRDailyForecastView.xib; sourceTree = "<group>"; };
 		4D49554A1A8C298A0066F278 /* TRRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRRefreshView.h; sourceTree = "<group>"; };
 		4D49554B1A8C298A0066F278 /* TRRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRRefreshView.m; sourceTree = "<group>"; };
-		4D49554D1A8C29C30066F278 /* TRCircularProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRCircularProgressLayer.h; sourceTree = "<group>"; };
-		4D49554E1A8C29C30066F278 /* TRCircularProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRCircularProgressLayer.m; sourceTree = "<group>"; };
 		4D4955501A8C2B5D0066F278 /* UIImage+TRColorBackdrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TRColorBackdrop.h"; sourceTree = "<group>"; };
 		4D4955511A8C2B5D0066F278 /* UIImage+TRColorBackdrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TRColorBackdrop.m"; sourceTree = "<group>"; };
 		4D7389DD1A9890CD0039F13B /* UIScrollView+TRReactiveCocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TRReactiveCocoa.h"; sourceTree = "<group>"; };
@@ -786,8 +783,6 @@
 				0FB1907721E3AF8800A2A8CA /* CircularProgressLayer.swift */,
 				51FEC99D21CD9F3300CDBC97 /* FadingImageView.swift */,
 				51FEC99921CD9AC500CDBC97 /* FadingLabel.swift */,
-				4D49554D1A8C29C30066F278 /* TRCircularProgressLayer.h */,
-				4D49554E1A8C29C30066F278 /* TRCircularProgressLayer.m */,
 				4DC069CB1A95B8F800F3BCEB /* TRColorBackdropLayer.h */,
 				4DC069CC1A95B8F800F3BCEB /* TRColorBackdropLayer.m */,
 				4D98E9831A80C43F00856412 /* TRDailyForecastView.h */,
@@ -1328,7 +1323,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D49554F1A8C29C30066F278 /* TRCircularProgressLayer.m in Sources */,
 				4D7389DF1A9890CD0039F13B /* UIScrollView+TRReactiveCocoa.m in Sources */,
 				4AA138C42134835A0083B816 /* Intents.intentdefinition in Sources */,
 				4DC069CD1A95B8F800F3BCEB /* TRColorBackdropLayer.m in Sources */,
