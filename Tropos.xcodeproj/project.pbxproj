@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0F9A6CB421C9A9D40035C811 /* CLLocation+TRRecentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A6CB121C996EC0035C811 /* CLLocation+TRRecentLocation.swift */; };
 		0F9A6CBA21CBF4C30035C811 /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A6CB921CBF4C30035C811 /* LocationController.swift */; };
+		0FB1907821E3AF8900A2A8CA /* CircularProgressLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB1907721E3AF8800A2A8CA /* CircularProgressLayer.swift */; };
 		4A21D76820C9E6FA0055A2AF /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A21D76720C9E6FA0055A2AF /* IntentHandler.swift */; };
 		4A21D76C20C9E6FB0055A2AF /* TroposIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4A21D76520C9E6FA0055A2AF /* TroposIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4A5109D520C9CB8100F993FC /* INInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5109D420C9CB8100F993FC /* INInteraction.swift */; };
@@ -241,6 +242,7 @@
 		0B30A1610CAE1C2E302C28B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F9A6CB121C996EC0035C811 /* CLLocation+TRRecentLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation+TRRecentLocation.swift"; sourceTree = "<group>"; };
 		0F9A6CB921CBF4C30035C811 /* LocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
+		0FB1907721E3AF8800A2A8CA /* CircularProgressLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularProgressLayer.swift; sourceTree = "<group>"; };
 		1CDD2312F1EF05277F045E15 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22FE01C01AF3F5550085B494 /* Secrets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Secrets.h; sourceTree = "<group>"; };
 		449386DA1B5044EE00766EC9 /* pl-PL */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pl-PL"; path = "pl-PL.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -781,6 +783,7 @@
 		639AAB142C96B59FC995CA1D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0FB1907721E3AF8800A2A8CA /* CircularProgressLayer.swift */,
 				51FEC99D21CD9F3300CDBC97 /* FadingImageView.swift */,
 				51FEC99921CD9AC500CDBC97 /* FadingLabel.swift */,
 				4D49554D1A8C29C30066F278 /* TRCircularProgressLayer.h */,
@@ -1334,6 +1337,7 @@
 				4DDF65061AB3AC0C00909D67 /* TRWeatherController.m in Sources */,
 				4ACA584B1CC526D600DD0CDC /* RACSignal+TROperators.m in Sources */,
 				4A86FB65205C0E4D00E761C3 /* AppDelegate.swift in Sources */,
+				0FB1907821E3AF8900A2A8CA /* CircularProgressLayer.swift in Sources */,
 				A10109001D336C9C0024B1BA /* TRTableViewCell.swift in Sources */,
 				4D49554C1A8C298A0066F278 /* TRRefreshView.m in Sources */,
 				A12FCE251D336FA90062E7F1 /* Color.swift in Sources */,
